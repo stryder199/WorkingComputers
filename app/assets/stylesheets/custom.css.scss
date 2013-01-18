@@ -1,0 +1,70 @@
+@import "bootstrap";
+
+$grayMediumLight: #eaeaea;
+$darkViolet: #9400D3;
+$darkdarkPurple: #330066;
+$graygray: #999999;
+$maingray: #343434;
+$maingreen: #80BC38;
+
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+  color: white;
+}
+
+body {
+  background-color: $maingray;
+  color: white;
+}
+
+.page {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: left;
+}
+
+/* header */
+
+.logo {
+}
+
+.links {
+  background-color: black;
+  text-align: left;
+  font-size: 30pt;
+  a{
+    color: $maingreen;
+  }
+}
+
+header {
+}
+
+/* footer */
+
+footer {
+  margin-top: 300px;
+  padding-top: 5px;
+  border-top: 1px solid white;
+  color: $graygray;
+  a {
+    color: $gray;
+    &:hover { 
+      color: $grayDarker;
+    }
+  }  
+  small { 
+    float: left; 
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
+}
